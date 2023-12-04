@@ -1,0 +1,1256 @@
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ mkdir uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ cd uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ mk trabalho
+mk: command not found
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ mkdir trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ mkdir textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ touch teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ nano teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp teste.txt teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp teste.txt teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp teste.txt trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp teste1.txt trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ mv teste.asc textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls -la
+total 0
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:39 .
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:39 ..
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  3 17:38 teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls -la
+total 0
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:39 .
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:39 ..
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  3 17:39 teste.txt
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  3 17:39 teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ chmod 664 texte.txt
+chmod: cannot access 'texte.txt': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ chmod 664 teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls -la
+total 0
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:39 .
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:39 ..
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  3 17:39 teste.txt
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  3 17:39 teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ chmod 644 teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ mkdir uffs_backup
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ ls -la
+total 14848
+drwxrwxrwx 1 stanakin stanakin     512 Dec  3 17:45  .
+dr-xr-xr-x 1 stanakin stanakin     512 Oct 16  2022  ..
+drwxrwxrwx 1 stanakin stanakin     512 Aug 19 21:53  .Origin
+drwxrwxrwx 1 stanakin stanakin     512 Aug 19 21:53  .QtWebEngineProcess
+drwxrwxrwx 1 stanakin stanakin     512 Sep  5 13:14  .android
+-rwxrwxrwx 1 stanakin stanakin      51 Nov  8 08:01  .gitconfig
+drwxrwxrwx 1 stanakin stanakin     512 Nov 30 07:10  .ipython
+drwxrwxrwx 1 stanakin stanakin     512 Nov 27 21:24  .opera
+drwxrwxrwx 1 stanakin stanakin     512 Nov  8 07:15  .vscode
+drwxrwxrwx 1 stanakin stanakin     512 Oct 16  2022  AppData
+drwxrwxrwx 1 stanakin stanakin     512 Nov 23 07:48 'Curso python'
+drwxrwxrwx 1 stanakin stanakin     512 Nov 30 20:21  Downloads
+drwxrwxrwx 1 stanakin stanakin     512 Nov 16 01:35  Favorites
+drwxrwxrwx 1 stanakin stanakin     512 Dec  2 17:31  IntelGraphicsProfiles
+drwxrwxrwx 1 stanakin stanakin     512 Aug 20 19:08  Music
+-rwxrwxrwx 1 stanakin stanakin 9699328 Nov 28 06:34  NTUSER.DAT
+-rwxrwxrwx 1 stanakin stanakin 1048576 Dec  3 07:49  NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.0.regtrans-ms
+-rwxrwxrwx 1 stanakin stanakin 1048576 Dec  2 17:31  NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.1.regtrans-ms
+-rwxrwxrwx 1 stanakin stanakin 1048576 Dec  2 17:31  NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.2.regtrans-ms
+-rwxrwxrwx 1 stanakin stanakin   65536 Dec  3 07:49  NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.blf
+-rwxrwxrwx 1 stanakin stanakin   65536 Oct 16  2022  NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+-rwxrwxrwx 1 stanakin stanakin  524288 Oct 16  2022  NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+-rwxrwxrwx 1 stanakin stanakin  524288 Oct 16  2022  NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+drwxrwxrwx 1 stanakin stanakin     512 Aug 11 20:40  OneDrive
+drwxrwxrwx 1 stanakin stanakin     512 Aug 29 23:28  Pictures
+drwxrwxrwx 1 stanakin stanakin     512 Aug 11 20:18 'Saved Games'
+drwxrwxrwx 1 stanakin stanakin     512 Sep 23 19:13  Searches
+drwxrwxrwx 1 stanakin stanakin     512 Dec  3 17:12  Tiffany
+drwxrwxrwx 1 stanakin stanakin     512 Aug 11 20:33  Videos
+-rwxrwxrwx 1 stanakin stanakin      20 Nov  8 07:27  exercicios.py
+-rwxrwxrwx 1 stanakin stanakin  393216 Oct 16  2022  ntuser.dat.LOG1
+-rwxrwxrwx 1 stanakin stanakin  786432 Oct 16  2022  ntuser.dat.LOG2
+-rwxrwxrwx 1 stanakin stanakin      20 Aug 13 17:16  ntuser.ini
+drwxrwxrwx 1 stanakin stanakin     512 Dec  3 17:39  uffs
+drwxrwxrwx 1 stanakin stanakin     512 Dec  3 17:45  uffs_backup
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ cp textos uffs_backup
+cp: cannot stat 'textos': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ cp uffs uffs_backup
+cp: -r not specified; omitting directory 'uffs'
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ cp -r uffs uffs_backup
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ ls -la
+total 15616
+drwxrwxrwx 1 stanakin stanakin     512 Dec  3 17:45  .
+dr-xr-xr-x 1 stanakin stanakin     512 Oct 16  2022  ..
+drwxrwxrwx 1 stanakin stanakin     512 Aug 19 21:53  .Origin
+drwxrwxrwx 1 stanakin stanakin     512 Aug 19 21:53  .QtWebEngineProcess
+drwxrwxrwx 1 stanakin stanakin     512 Sep  5 13:14  .android
+-rwxrwxrwx 1 stanakin stanakin      51 Nov  8 08:01  .gitconfig
+drwxrwxrwx 1 stanakin stanakin     512 Nov 30 07:10  .ipython
+drwxrwxrwx 1 stanakin stanakin     512 Nov 27 21:24  .opera
+drwxrwxrwx 1 stanakin stanakin     512 Nov  8 07:15  .vscode
+drwxrwxrwx 1 stanakin stanakin     512 Oct 16  2022  AppData
+drwxrwxrwx 1 stanakin stanakin     512 Nov 23 07:48 'Curso python'
+drwxrwxrwx 1 stanakin stanakin     512 Nov 30 20:21  Downloads
+drwxrwxrwx 1 stanakin stanakin     512 Nov 16 01:35  Favorites
+drwxrwxrwx 1 stanakin stanakin     512 Dec  2 17:31  IntelGraphicsProfiles
+drwxrwxrwx 1 stanakin stanakin     512 Aug 20 19:08  Music
+-rwxrwxrwx 1 stanakin stanakin 9699328 Nov 28 06:34  NTUSER.DAT
+-rwxrwxrwx 1 stanakin stanakin 1048576 Dec  3 07:49  NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.0.regtrans-ms
+-rwxrwxrwx 1 stanakin stanakin 1048576 Dec  2 17:31  NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.1.regtrans-ms
+-rwxrwxrwx 1 stanakin stanakin 1048576 Dec  2 17:31  NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.2.regtrans-ms
+-rwxrwxrwx 1 stanakin stanakin   65536 Dec  3 07:49  NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.blf
+-rwxrwxrwx 1 stanakin stanakin   65536 Oct 16  2022  NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+-rwxrwxrwx 1 stanakin stanakin  524288 Oct 16  2022  NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+-rwxrwxrwx 1 stanakin stanakin  524288 Oct 16  2022  NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+drwxrwxrwx 1 stanakin stanakin     512 Aug 11 20:40  OneDrive
+drwxrwxrwx 1 stanakin stanakin     512 Aug 29 23:28  Pictures
+drwxrwxrwx 1 stanakin stanakin     512 Aug 11 20:18 'Saved Games'
+drwxrwxrwx 1 stanakin stanakin     512 Sep 23 19:13  Searches
+drwxrwxrwx 1 stanakin stanakin     512 Dec  3 17:12  Tiffany
+drwxrwxrwx 1 stanakin stanakin     512 Aug 11 20:33  Videos
+-rwxrwxrwx 1 stanakin stanakin      20 Nov  8 07:27  exercicios.py
+-rwxrwxrwx 1 stanakin stanakin  393216 Oct 16  2022  ntuser.dat.LOG1
+-rwxrwxrwx 1 stanakin stanakin 1572864 Oct 16  2022  ntuser.dat.LOG2
+-rwxrwxrwx 1 stanakin stanakin      20 Aug 13 17:16  ntuser.ini
+drwxrwxrwx 1 stanakin stanakin     512 Dec  3 17:39  uffs
+drwxrwxrwx 1 stanakin stanakin     512 Dec  3 17:53  uffs_backup
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ cd uffs_backup
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup$ ls -la
+total 0
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:53 .
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:45 ..
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:53 uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ uffs
+uffs: command not found
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ cd uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp teste.asc trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls -la
+total 0
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:39 .
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:39 ..
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  3 17:39 teste.txt
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  3 17:39 teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ uffs
+uffs: command not found
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp -r teste.asc trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls -la
+total 0
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:39 .
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:39 ..
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  3 17:39 teste.txt
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  3 17:39 teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp -r teste.asc trabalho
+cp: cannot stat 'teste.asc': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp -r teste.asc trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls -la
+total 0
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:39 .
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:45 ..
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  3 17:37 teste.txt
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  3 17:38 teste1.txt
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 18:11 textos
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:39 trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls -la
+total 0
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:39 .
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:39 ..
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  3 17:39 teste.txt
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  3 17:39 teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls -la
+total 0
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 18:11 .
+drwxrwxrwx 1 stanakin stanakin 512 Dec  3 17:39 ..
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  3 17:38 teste.asc
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  3 18:21 trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ rm trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp teste.asc /trabalho
+cp: cannot create regular file '/trabalho': Permission denied
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp teste.asc
+cp: missing destination file operand after 'teste.asc'
+Try 'cp --help' for more information.
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ^C
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ^C
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ chmod 644 teste.txt
+chmod: cannot access 'teste.txt': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ pwd
+/mnt/c/Users/Tiffany/uffs/textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp teste.asc trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls
+teste.txt  teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp teste.asc trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.txt  teste1.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls
+teste.txt  teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp teste.asc textos trabalho
+cp: target 'trabalho' is not a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp teste.asc \textos \trabalho
+cp: target 'trabalho' is not a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp teste.asc trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp teste.asc trabalho
+cp: cannot stat 'teste.asc': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd texros
+-bash: cd: texros: No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd texte.asc
+-bash: cd: texte.asc: No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp texte.asc
+cp: missing destination file operand after 'texte.asc'
+Try 'cp --help' for more information.
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp --help
+Usage: cp [OPTION]... [-T] SOURCE DEST
+  or:  cp [OPTION]... SOURCE... DIRECTORY
+  or:  cp [OPTION]... -t DIRECTORY SOURCE...
+Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --archive                same as -dR --preserve=all
+      --attributes-only        don't copy the file data, just the attributes
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+      --copy-contents          copy contents of special files when recursive
+  -d                           same as --no-dereference --preserve=links
+  -f, --force                  if an existing destination file cannot be
+                                 opened, remove it and try again (this option
+                                 is ignored when the -n option is also used)
+  -i, --interactive            prompt before overwrite (overrides a previous -n
+                                  option)
+  -H                           follow command-line symbolic links in SOURCE
+  -l, --link                   hard link files instead of copying
+  -L, --dereference            always follow symbolic links in SOURCE
+  -n, --no-clobber             do not overwrite an existing file (overrides
+                                 a previous -i option)
+  -P, --no-dereference         never follow symbolic links in SOURCE
+  -p                           same as --preserve=mode,ownership,timestamps
+      --preserve[=ATTR_LIST]   preserve the specified attributes (default:
+                                 mode,ownership,timestamps), if possible
+                                 additional attributes: context, links, xattr,
+                                 all
+      --no-preserve=ATTR_LIST  don't preserve the specified attributes
+      --parents                use full source file name under DIRECTORY
+  -R, -r, --recursive          copy directories recursively
+      --reflink[=WHEN]         control clone/CoW copies. See below
+      --remove-destination     remove each existing destination file before
+                                 attempting to open it (contrast with --force)
+      --sparse=WHEN            control creation of sparse files. See below
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -s, --symbolic-link          make symbolic links instead of copying
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  copy all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 copy only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -x, --one-file-system        stay on this file system
+  -Z                           set SELinux security context of destination
+                                 file to default type
+      --context[=CTX]          like -Z, or if CTX is specified then set the
+                                 SELinux or SMACK security context to CTX
+      --help     display this help and exit
+      --version  output version information and exit
+
+By default, sparse SOURCE files are detected by a crude heuristic and the
+corresponding DEST file is made sparse as well.  That is the behavior
+selected by --sparse=auto.  Specify --sparse=always to create a sparse DEST
+file whenever the SOURCE file contains a long enough sequence of zero bytes.
+Use --sparse=never to inhibit creation of sparse files.
+
+When --reflink[=always] is specified, perform a lightweight copy, where the
+data blocks are copied only when modified.  If this is not possible the copy
+fails, or if --reflink=auto is specified, fall back to a standard copy.
+Use --reflink=never to ensure a standard copy is performed.
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+As a special case, cp makes a backup of SOURCE when the force and backup
+options are given and SOURCE and DEST are the same name for an existing,
+regular file.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/cp>
+or available locally via: info '(coreutils) cp invocation'
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp -a texte.asc textos trabalho
+cp: target 'trabalho' is not a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp -a texte.asc trabalho
+cp: cannot stat 'texte.asc': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls
+teste.txt  teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cp -a texte.asc
+cp: missing destination file operand after 'texte.asc'
+Try 'cp --help' for more information.
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cp -a texte.asc trabalho
+cp: cannot stat 'texte.asc': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cp -a teste.asc trabalho
+cp: cannot stat 'teste.asc': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cp -f teste.asc trabalho
+cp: cannot stat 'teste.asc': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cp -b teste.asc trabalho
+cp: cannot stat 'teste.asc': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp -b teste.asc trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc  trabalho  trabalho~
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp -f teste.asc trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc  trabalho  trabalho~
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ rm trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls7
+Command 'ls7' not found, did you mean:
+  command 'lsd' from snap lsd (0.16.0)
+  command 'lsm' from deb lsm (1.0.4-2)
+  command 'lsw' from deb suckless-tools (46-1)
+  command 'lsh' from deb lsh-client (2.1-13)
+  command 'ls' from deb coreutils (8.32-4.1ubuntu1)
+  command 'lsc' from deb livescript (1.6.1+dfsg-2)
+See 'snap info <snapname>' for additional versions.
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc  trabalho~
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ rm trabalho~
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ la
+teste.txt  teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp -a teste.asc textos trabalho
+cp: target 'trabalho' is not a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp -a teste.asc textos trabalho
+cp: cannot stat 'teste.asc': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ mv teste.asc trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls
+teste.txt  teste1.txt  textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ mv teste.asc textos
+mv: cannot stat 'teste.asc': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ mv textos textos
+mv: cannot move 'textos' to a subdirectory of itself, 'textos/textos'
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ rm textos
+rm: cannot remove 'textos': Is a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ mkdir teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ rmdir teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ touch
+touch: missing file operand
+Try 'touch --help' for more information.
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ touch --help
+Usage: touch [OPTION]... FILE...
+Update the access and modification times of each FILE to the current time.
+
+A FILE argument that does not exist is created empty, unless -c or -h
+is supplied.
+
+A FILE argument string of - is handled specially and causes touch to
+change the times of the file associated with standard output.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a                     change only the access time
+  -c, --no-create        do not create any files
+  -d, --date=STRING      parse STRING and use it instead of current time
+  -f                     (ignored)
+  -h, --no-dereference   affect each symbolic link instead of any referenced
+                         file (useful only on systems that can change the
+                         timestamps of a symlink)
+  -m                     change only the modification time
+  -r, --reference=FILE   use this file's times instead of current time
+  -t STAMP               use [[CC]YY]MMDDhhmm[.ss] instead of current time
+      --time=WORD        change the specified time:
+                           WORD is access, atime, or use: equivalent to -a
+                           WORD is modify or mtime: equivalent to -m
+      --help     display this help and exit
+      --version  output version information and exit
+
+Note that the -d and -t options accept different time-date formats.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/touch>
+or available locally via: info '(coreutils) touch invocation'
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ touch teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ rm trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ la
+teste.txt  teste1.txt  textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls
+teste.txt  teste1.txt  textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ rmdir textos
+rmdir: failed to remove 'textos': Directory not empty
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho/textos$ ls]
+Command 'ls]' not found, did you mean:
+  command 'lsd' from snap lsd (0.16.0)
+  command 'lsh' from deb lsh-client (2.1-13)
+  command 'ls' from deb coreutils (8.32-4.1ubuntu1)
+  command 'lsc' from deb livescript (1.6.1+dfsg-2)
+  command 'lsw' from deb suckless-tools (46-1)
+  command 'lsm' from deb lsm (1.0.4-2)
+See 'snap info <snapname>' for additional versions.
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho/textos$ ls
+teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho/textos$ rm teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho/textos$ ls
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ rmdir texto
+rmdir: failed to remove 'texto': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ rmdir textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls
+teste.txt  teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ pwd
+/mnt/c/Users/Tiffany/uffs/trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ pwd
+/mnt/c/Users/Tiffany/uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ cd uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp -a teste.asc textos trabalho
+cp: target 'trabalho' is not a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp -f teste.asc textos trabalho
+cp: target 'trabalho' is not a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp -f teste.asc trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ rm trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.txt  teste1.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ rm trabalho
+rm: cannot remove 'trabalho': Is a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cp teste.asc
+cp: missing destination file operand after 'teste.asc'
+Try 'cp --help' for more information.
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cp teste.asc trabalho
+cp: cannot stat 'teste.asc': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cp teste.asc textos trabalho
+cp: target 'trabalho' is not a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ps
+    PID TTY          TIME CMD
+    577 pts/0    00:00:02 bash
+  11825 pts/0    00:00:00 ps
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cp -r teste.asc textos trabalho
+cp: target 'trabalho' is not a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls
+teste.txt  teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ rm teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ rm teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ rmdir trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.txt  teste1.txt  textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ rm teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ rm teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ rm teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ rmdir textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ rmdir uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ ls
+ AppData
+'Curso python'
+ Downloads
+ Favorites
+ IntelGraphicsProfiles
+ Music
+ NTUSER.DAT
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.0.regtrans-ms
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.1.regtrans-ms
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.2.regtrans-ms
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive
+ Pictures
+'Saved Games'
+ Searches
+ Tiffany
+ Videos
+ exercicios.py
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ uffs_backup
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ ^C
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ ^C
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ ^C
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ ^C
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ ^C
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ ^C
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ ^C
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ ^C
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ mkdir uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ rmdir uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$  çs
+çs: command not found
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ ls
+ AppData
+'Curso python'
+ Downloads
+ Favorites
+ IntelGraphicsProfiles
+ Music
+ NTUSER.DAT
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.0.regtrans-ms
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.1.regtrans-ms
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.2.regtrans-ms
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive
+ Pictures
+'Saved Games'
+ Searches
+ Tiffany
+ Videos
+ exercicios.py
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ uffs_backup
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ rmdir uffs_backup
+rmdir: failed to remove 'uffs_backup': Directory not empty
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ cd uffs_backup
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup$ ls
+uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ ls
+ AppData
+'Curso python'
+ Downloads
+ Favorites
+ IntelGraphicsProfiles
+ Music
+ NTUSER.DAT
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.0.regtrans-ms
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.1.regtrans-ms
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.2.regtrans-ms
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive
+ Pictures
+'Saved Games'
+ Searches
+ Tiffany
+ Videos
+ exercicios.py
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ uffs_backup
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ cd uffs_backup
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup$ ls
+uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup$ cd uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs$ ls
+teste.txt  teste1.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs$ rm teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs$ rm teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs$ ls
+textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs/textos$ ls
+teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs/textos$ rm teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs/textos$ ls
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs$ rmdir textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs/trabalho$ ls
+teste.txt  teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs/trabalho$ rm teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs/trabalho$ rm teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs/trabalho$ ls
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs$ rmdir trablho
+rmdir: failed to remove 'trablho': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs$ rmdir trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs$ ls
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup/uffs$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup$ rmdir uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup$ ls
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs_backup$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ rmdir uffs_backup
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ ls
+ AppData
+'Curso python'
+ Downloads
+ Favorites
+ IntelGraphicsProfiles
+ Music
+ NTUSER.DAT
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.0.regtrans-ms
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.1.regtrans-ms
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.2.regtrans-ms
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive
+ Pictures
+'Saved Games'
+ Searches
+ Tiffany
+ Videos
+ exercicios.py
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ mkdir uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ cd uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ mkdir trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ mkdir textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ touch teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ nano teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ nano teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ nano teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cat
+cd teste.txt
+cd teste.txt
+^C
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cat teste.txt
+Matricula: 20230001338
+Nome: Tiffany Raiser Bolzan
+Cidade: Videira
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cat
+^C
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ^C
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp teste.txt teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.txt  teste1.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp teste.txt teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.asc  teste.txt  teste1.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp txt trabalho
+cp: cannot stat 'txt': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp ,txt trabalho
+cp: cannot stat ',txt': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp .txt trabalho
+cp: cannot stat '.txt': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp teste1.txt trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.asc  teste.txt  teste1.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls
+teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp teste.txt trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.asc  teste.txt  teste1.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ mv teste.asc te
+teste.asc   teste.txt   teste1.txt  textos/
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ mv teste.asc textos/
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.txt  teste1.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cat
+^C
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ pwd
+/mnt/c/Users/Tiffany/uffs/textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls -l
+total 0
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 00:34 teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.txt  teste1.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls -l
+total 0
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  4 00:32 teste.txt
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  4 00:34 teste1.txt
+drwxrwxrwx 1 stanakin stanakin 512 Dec  4 00:36 textos
+drwxrwxrwx 1 stanakin stanakin 512 Dec  4 00:35 trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ chmod teste.txt 664
+chmod: invalid mode: ‘teste.txt’
+Try 'chmod --help' for more information.
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ chmod 664 teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls -l teste.txt
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 00:32 teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ chmod 664 teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls -l teste.txt
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 00:32 teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.txt  teste1.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls
+teste.txt  teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ chmod 664 teste
+teste.txt   teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ chmod 664 teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls -l
+total 0
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 00:35 teste.txt
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 00:35 teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ chmod 54 teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ chmod 554 teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls -l
+total 0
+-r-xr-xr-x 1 stanakin stanakin 68 Dec  4 00:35 teste.txt
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 00:35 teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ chmod 64 teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls -l
+total 0
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 00:35 teste.txt
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 00:35 teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ chmod 6 teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls -l
+total 0
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 00:35 teste.txt
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 00:35 teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ chmod 764 teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls -l
+total 0
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 00:35 teste.txt
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 00:35 teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ chmod 644 teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls -l
+total 0
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 00:35 teste.txt
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 00:35 teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ chmod 644 teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls -l
+total 0
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  4 00:32 teste.txt
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  4 00:34 teste1.txt
+drwxrwxrwx 1 stanakin stanakin 512 Dec  4 00:36 textos
+drwxrwxrwx 1 stanakin stanakin 512 Dec  4 00:35 trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ chmod 664 teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls -l
+total 0
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  4 00:32 teste.txt
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  4 00:34 teste1.txt
+drwxrwxrwx 1 stanakin stanakin 512 Dec  4 00:36 textos
+drwxrwxrwx 1 stanakin stanakin 512 Dec  4 00:35 trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ chmod rw-rw-r teste.txt
+chmod: invalid mode: ‘rw-rw-r’
+Try 'chmod --help' for more information.
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ chmod --help
+Usage: chmod [OPTION]... MODE[,MODE]... FILE...
+  or:  chmod [OPTION]... OCTAL-MODE FILE...
+  or:  chmod [OPTION]... --reference=RFILE FILE...
+Change the mode of each FILE to MODE.
+With --reference, change the mode of each FILE to that of RFILE.
+
+  -c, --changes          like verbose but report only when a change is made
+  -f, --silent, --quiet  suppress most error messages
+  -v, --verbose          output a diagnostic for every file processed
+      --no-preserve-root  do not treat '/' specially (the default)
+      --preserve-root    fail to operate recursively on '/'
+      --reference=RFILE  use RFILE's mode instead of MODE values
+  -R, --recursive        change files and directories recursively
+      --help     display this help and exit
+      --version  output version information and exit
+
+Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/chmod>
+or available locally via: info '(coreutils) chmod invocation'
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ chmod -c 664 teste.txt
+mode of 'teste.txt' changed from 0777 (rwxrwxrwx) to 0664 (rw-rw-r--)
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ chmod -c 644 teste1.txt
+mode of 'teste1.txt' changed from 0777 (rwxrwxrwx) to 0644 (rw-r--r--)
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls -
+ls: cannot access '-': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls -l
+total 0
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  4 00:32 teste.txt
+-rwxrwxrwx 1 stanakin stanakin  68 Dec  4 00:34 teste1.txt
+drwxrwxrwx 1 stanakin stanakin 512 Dec  4 00:36 textos
+drwxrwxrwx 1 stanakin stanakin 512 Dec  4 00:35 trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ cp
+.Origin/
+.QtWebEngineProcess/
+.android/
+.gitconfig
+.ipython/
+.opera/
+.vscode/
+AppData/
+Curso python/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Music/
+NTUSER.DAT
+NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.0.regtrans-ms
+NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.1.regtrans-ms
+NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.2.regtrans-ms
+NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.blf
+NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+OneDrive/
+Pictures/
+Saved Games/
+Searches/
+Tiffany/
+Videos/
+exercicios.py
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+uffs/
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ cp --help
+Usage: cp [OPTION]... [-T] SOURCE DEST
+  or:  cp [OPTION]... SOURCE... DIRECTORY
+  or:  cp [OPTION]... -t DIRECTORY SOURCE...
+Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --archive                same as -dR --preserve=all
+      --attributes-only        don't copy the file data, just the attributes
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+      --copy-contents          copy contents of special files when recursive
+  -d                           same as --no-dereference --preserve=links
+  -f, --force                  if an existing destination file cannot be
+                                 opened, remove it and try again (this option
+                                 is ignored when the -n option is also used)
+  -i, --interactive            prompt before overwrite (overrides a previous -n
+                                  option)
+  -H                           follow command-line symbolic links in SOURCE
+  -l, --link                   hard link files instead of copying
+  -L, --dereference            always follow symbolic links in SOURCE
+  -n, --no-clobber             do not overwrite an existing file (overrides
+                                 a previous -i option)
+  -P, --no-dereference         never follow symbolic links in SOURCE
+  -p                           same as --preserve=mode,ownership,timestamps
+      --preserve[=ATTR_LIST]   preserve the specified attributes (default:
+                                 mode,ownership,timestamps), if possible
+                                 additional attributes: context, links, xattr,
+                                 all
+      --no-preserve=ATTR_LIST  don't preserve the specified attributes
+      --parents                use full source file name under DIRECTORY
+  -R, -r, --recursive          copy directories recursively
+      --reflink[=WHEN]         control clone/CoW copies. See below
+      --remove-destination     remove each existing destination file before
+                                 attempting to open it (contrast with --force)
+      --sparse=WHEN            control creation of sparse files. See below
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -s, --symbolic-link          make symbolic links instead of copying
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  copy all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 copy only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -x, --one-file-system        stay on this file system
+  -Z                           set SELinux security context of destination
+                                 file to default type
+      --context[=CTX]          like -Z, or if CTX is specified then set the
+                                 SELinux or SMACK security context to CTX
+      --help     display this help and exit
+      --version  output version information and exit
+
+By default, sparse SOURCE files are detected by a crude heuristic and the
+corresponding DEST file is made sparse as well.  That is the behavior
+selected by --sparse=auto.  Specify --sparse=always to create a sparse DEST
+file whenever the SOURCE file contains a long enough sequence of zero bytes.
+Use --sparse=never to inhibit creation of sparse files.
+
+When --reflink[=always] is specified, perform a lightweight copy, where the
+data blocks are copied only when modified.  If this is not possible the copy
+fails, or if --reflink=auto is specified, fall back to a standard copy.
+Use --reflink=never to ensure a standard copy is performed.
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+As a special case, cp makes a backup of SOURCE when the force and backup
+options are given and SOURCE and DEST are the same name for an existing,
+regular file.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/cp>
+or available locally via: info '(coreutils) cp invocation'
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ cp -a uffs/ uffs_backup
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ ls
+ AppData
+'Curso python'
+ Downloads
+ Favorites
+ IntelGraphicsProfiles
+ Music
+ NTUSER.DAT
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.0.regtrans-ms
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.1.regtrans-ms
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.2.regtrans-ms
+ NTUSER.DAT{a2332f17-cdbf-11ec-8680-002248483d79}.TxR.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive
+ Pictures
+'Saved Games'
+ Searches
+ Tiffany
+ Videos
+ exercicios.py
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ uffs
+ uffs_backup
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany$ cd uffs
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp -b teste.asc textos trabalho
+cp: target 'trabalho' is not a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp -b teste.asc trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ rm trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho[
+-bash: cd: trabalho[: No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd --help
+cd: cd [-L|[-P [-e]] [-@]] [dir]
+    Change the shell working directory.
+
+    Change the current directory to DIR.  The default DIR is the value of the
+    HOME shell variable.
+
+    The variable CDPATH defines the search path for the directory containing
+    DIR.  Alternative directory names in CDPATH are separated by a colon (:).
+    A null directory name is the same as the current directory.  If DIR begins
+    with a slash (/), then CDPATH is not used.
+
+    If the directory is not found, and the shell option `cdable_vars' is set,
+    the word is assumed to be  a variable name.  If that variable has a value,
+    its value is used for DIR.
+
+    Options:
+      -L        force symbolic links to be followed: resolve symbolic
+                links in DIR after processing instances of `..'
+      -P        use the physical directory structure without following
+                symbolic links: resolve symbolic links in DIR before
+                processing instances of `..'
+      -e        if the -P option is supplied, and the current working
+                directory cannot be determined successfully, exit with
+                a non-zero status
+      -@        on systems that support it, present a file with extended
+                attributes as a directory containing the file attributes
+
+    The default is to follow symbolic links, as if `-L' were specified.
+    `..' is processed by removing the immediately previous pathname component
+    back to a slash or the beginning of DIR.
+
+    Exit Status:
+    Returns 0 if the directory is changed, and if $PWD is set successfully when
+    -P is used; non-zero otherwise.
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd-L teste.asc
+cd-L: command not found
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd -L teste.asc
+-bash: cd: teste.asc: Not a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd -L teste.asc trabalho
+-bash: cd: too many arguments
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd -P teste.asc trabalho
+-bash: cd: too many arguments
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd -e teste.asc trabalho
+-bash: cd: too many arguments
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cddir teste.asc trabalho
+Command 'cddir' not found, did you mean:
+  command 'ddir' from deb ddir (2019.0505-2)
+  command 'cdir' from deb cdtool (2.1.8-release-8)
+Try: sudo apt install <deb name>
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cdir teste.asc trabalho
+Command 'cdir' not found, but can be installed with:
+sudo apt install cdtool
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp --help
+Usage: cp [OPTION]... [-T] SOURCE DEST
+  or:  cp [OPTION]... SOURCE... DIRECTORY
+  or:  cp [OPTION]... -t DIRECTORY SOURCE...
+Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --archive                same as -dR --preserve=all
+      --attributes-only        don't copy the file data, just the attributes
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+      --copy-contents          copy contents of special files when recursive
+  -d                           same as --no-dereference --preserve=links
+  -f, --force                  if an existing destination file cannot be
+                                 opened, remove it and try again (this option
+                                 is ignored when the -n option is also used)
+  -i, --interactive            prompt before overwrite (overrides a previous -n
+                                  option)
+  -H                           follow command-line symbolic links in SOURCE
+  -l, --link                   hard link files instead of copying
+  -L, --dereference            always follow symbolic links in SOURCE
+  -n, --no-clobber             do not overwrite an existing file (overrides
+                                 a previous -i option)
+  -P, --no-dereference         never follow symbolic links in SOURCE
+  -p                           same as --preserve=mode,ownership,timestamps
+      --preserve[=ATTR_LIST]   preserve the specified attributes (default:
+                                 mode,ownership,timestamps), if possible
+                                 additional attributes: context, links, xattr,
+                                 all
+      --no-preserve=ATTR_LIST  don't preserve the specified attributes
+      --parents                use full source file name under DIRECTORY
+  -R, -r, --recursive          copy directories recursively
+      --reflink[=WHEN]         control clone/CoW copies. See below
+      --remove-destination     remove each existing destination file before
+                                 attempting to open it (contrast with --force)
+      --sparse=WHEN            control creation of sparse files. See below
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -s, --symbolic-link          make symbolic links instead of copying
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  copy all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 copy only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -x, --one-file-system        stay on this file system
+  -Z                           set SELinux security context of destination
+                                 file to default type
+      --context[=CTX]          like -Z, or if CTX is specified then set the
+                                 SELinux or SMACK security context to CTX
+      --help     display this help and exit
+      --version  output version information and exit
+
+By default, sparse SOURCE files are detected by a crude heuristic and the
+corresponding DEST file is made sparse as well.  That is the behavior
+selected by --sparse=auto.  Specify --sparse=always to create a sparse DEST
+file whenever the SOURCE file contains a long enough sequence of zero bytes.
+Use --sparse=never to inhibit creation of sparse files.
+
+When --reflink[=always] is specified, perform a lightweight copy, where the
+data blocks are copied only when modified.  If this is not possible the copy
+fails, or if --reflink=auto is specified, fall back to a standard copy.
+Use --reflink=never to ensure a standard copy is performed.
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+As a special case, cp makes a backup of SOURCE when the force and backup
+options are given and SOURCE and DEST are the same name for an existing,
+regular file.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/cp>
+or available locally via: info '(coreutils) cp invocation'
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp -b -t trabalho
+cp: failed to access 'trabalho': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ mv teste.asc textos trabalho
+mv: target 'trabalho' is not a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.txt  teste1.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ mkdir trabalho
+mkdir: cannot create directory ‘trabalho’: File exists
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls
+teste.txt  teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ rm
+rm: missing operand
+Try 'rm --help' for more information.
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ rm teste
+rm: cannot remove 'teste': No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ rm teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ rm teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ rmdir trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ mv teste.asc textos trabalho
+mv: target 'trabalho' is not a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp teste.asc textos trabalho
+cp: target 'trabalho' is not a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ mkdir trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.txt  teste1.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp teste.asc textos trabalho
+cp: target 'trabalho' is not a directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp teste.asc trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ rm trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ d .
+d: command not found
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.txt  teste1.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp teste1.txt trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.txt  teste1.txt  textos  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls
+teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cp teste.txt trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd texto
+-bash: cd: texto: No such file or directory
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ rm teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ mk teste.asc
+mk: command not found
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ touch teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cp teste.asc trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ ls
+teste.asc  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ rm trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cat
+^C
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cat teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ touch teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls
+teste.asc  teste.txt  teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd textos/
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ rm teste.asc
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/textos$ cd ..
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ rmdir textos
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ ls
+teste.txt  teste1.txt  trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs$ cd trabalho
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ mv teste.asc outro_teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls
+outro_teste.txt  teste.txt  teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ ls -l
+total 0
+-rwxrwxrwx 1 stanakin stanakin  0 Dec  4 10:33 outro_teste.txt
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 10:32 teste.txt
+-rwxrwxrwx 1 stanakin stanakin 68 Dec  4 10:31 teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cat
+outro_teste.txt  teste.txt        teste1.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cat outro_teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ nano outro_teste.txt
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$ cat outro_teste.txt
+Matricula: 20230001338
+Nome: Tiffany Raiser Bolzan
+Cidade: Videira
+stanakin@DESKTOP-BKD3JK4:/mnt/c/Users/Tiffany/uffs/trabalho$
