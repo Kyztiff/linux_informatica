@@ -1,2 +1,2 @@
-# linux_informatica
-Trabalho linux
+# TRABALHO_PRATICO_4
+LINUX
